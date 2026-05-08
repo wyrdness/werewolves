@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/werewolves",
     "maintainers": [
       {
@@ -16,72 +16,160 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "werewolves",
-    "name": "Werewolves (Lycanthropy)",
-    "aliases": [],
-    "category": "SHAPESHIFTER",
-    "subcategory": "Lycanthrope (specifically wolf)",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Werewolf",
+    "aliases": [
+      { "name": "Lycanthrope", "language": "Greek (via Latin)", "meaning": "From lukánthrōpos: lukos (wolf) + anthropos (man)" },
+      { "name": "Loup-garou", "language": "French", "region": "France, French Canada, Louisiana", "meaning": "Wolf-werewolf; redundant compound from Old French" },
+      { "name": "Werwolf", "language": "German", "meaning": "Man-wolf; from Old High German" },
+      { "name": "Vukodlak", "language": "Serbian", "region": "Balkans", "meaning": "Wolf-haired" },
+      { "name": "Vlkodlak", "language": "Czech", "region": "Central Europe", "meaning": "Wolf-haired" },
+      { "name": "Rougarou", "language": "French Creole", "region": "Louisiana, Cajun", "meaning": "Variant of loup-garou" },
+      { "name": "Lougawou", "language": "Haitian Creole", "region": "Haiti, Caribbean", "meaning": "Shapeshifting blood-drinker; derived from loup-garou" }
     ],
-    "status": "documented",
+    "category": "SHAPESHIFTER",
+    "subcategory": "Lycanthrope",
+    "tags": [
+      "shapeshifter",
+      "humanoid",
+      "wolf",
+      "european-folklore",
+      "mythology",
+      "witch-trials",
+      "transformation",
+      "historical-trials"
+    ],
+    "status": "historical",
     "description": {
-      "summary": "Werewolves, also known as lycanthropes, are legendary humans capable of transforming into wolves or wolf-human hybrids.",
-      "full": "Werewolves, also known as lycanthropes, are legendary humans capable of transforming into wolves or wolf-human hybrids. The phenomenon has ancient roots in mythology and folklore across cultures, with the most developed traditions emerging from Europe. Historical werewolf trials during the 1500s-1600s paralleled witch hunts, resulting in numerous executions throughout France and Germany. The modern werewolf mythology—including full moon transformation, silver vulnerability, and infectious bite—developed primarily through 19th-20th century literature and film, particularly Universal Pictures' *The Wolf Man* (1941). While no verified werewolf cases exist, the legend connects to deeper themes of human duality, wildness, and the boundary between civilization and nature. The medical term \\\"clinical lycanthropy\\\" describes a rare psychiatric condition where patients believe they transform into animals."
+      "summary": "A human capable of transforming into a wolf or wolf-human hybrid, featuring in the folklore and mythology of many cultures, with the most developed European tradition producing historical trials and executions between the 1500s and 1700s.",
+      "full": "The werewolf — from Old English wer(e)wulf, 'man-wolf' — is one of the most widely attested shapeshifter figures in world folklore, appearing across European, Slavic, Caucasian, and New World traditions. In medieval and early modern Europe, lycanthropy was treated as a genuine supernatural phenomenon subject to ecclesiastical and civil law. Trials for werewolfery peaked in late 16th- and early 17th-century France and the Holy Roman Empire, running parallel to the broader witch-trial era and resulting in numerous executions, the most notorious being that of Peter Stumpp in Cologne in 1589. Classical antiquity provides early documentary evidence: Herodotus recorded that the Neuri tribe allegedly transformed annually into wolves; Pausanias described King Lycaon's punishment by Zeus; Ovid's Metamorphoses and Petronius's Satyricon (c. AD 60) include transformation narratives. Medieval traditions elaborated the theme: Marie de France's lai Bisclavret (c. 1200) depicts a nobleman forced to transform weekly. Regional variations proliferated across Europe and beyond — Hungarian, Slavic, Armenian, Caribbean, and Amerindian traditions all feature human-to-animal transformation with distinct triggering mechanisms and moral frameworks. The modern cinematic stereotype — full-moon transformation, silver vulnerability, infectious bite — is largely a 20th-century invention, introduced through Universal Pictures' horror cycle (The Wolf Man, 1941; Frankenstein Meets the Wolf Man, 1943). Clinical lycanthropy, a rare psychiatric condition in which patients believe they have transformed into an animal, provides a medical parallel studied by modern psychiatry."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Old English wer(e)wulf, attested in glossaries and law codes; cognates in Middle Dutch weerwolf, Middle High German werwolf, West Frisian waer-ûl(e). The Greek form lycanthrope (lukánthrōpos) originally described a delusional psychiatric condition, not a supernatural being.",
+      "meaning": "Man-wolf: wer (Old English/Germanic for 'man') + wulf (wolf). The Slavic branch developed independently from vьlko-dlakь, meaning 'wolf-haired'.",
+      "first_use": "Old English (pre-Norman Conquest); found in Cnut the Great's law codes and ecclesiastical glossaries"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "SHAPESHIFTER",
-      "type": "Lycanthrope (specifically wolf)",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Lycanthrope",
+      "subtype": "Human-to-wolf transformation",
+      "variant": "Pan-European / global cognates"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "skin-walker", "name": "Skinwalker", "relationship": "similar", "description": "Navajo witch figure capable of taking animal form, including wolf; conceptually parallel but culturally distinct" },
+      { "id": "rougarou", "name": "Rougarou", "relationship": "regional_variant", "description": "Cajun/Louisiana Creole variant of loup-garou, blending French and indigenous traditions" },
+      { "id": "vukodlak", "name": "Vukodlak", "relationship": "regional_variant", "description": "South Slavic wolf-demon tradition; sometimes overlaps with vampire lore" },
+      { "id": "clinical-lycanthropy", "name": "Clinical Lycanthropy", "relationship": "related", "description": "Rare psychiatric syndrome in which patients believe they are transforming into an animal" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Full-body hair in wolf form", "description": "Complete transformation into a wolf or wolf-hybrid, covered in fur; in some traditions the size is larger than a natural wolf", "frequency": "always" },
+        { "feature": "Meeting eyebrows (in human form)", "description": "Eyebrows that meet in the middle; cited in medieval European accounts as an identifying mark of a werewolf in human form", "frequency": "common" },
+        { "feature": "Curved fingernails (in human form)", "description": "Long, claw-like curved nails; another folk identifier", "frequency": "common" },
+        { "feature": "Human eyes retained in wolf form", "description": "Many traditions hold that the werewolf retains human-looking eyes while transformed, distinguishing it from natural wolves", "frequency": "common" },
+        { "feature": "Tailless wolf form", "description": "In many European traditions, transformed werewolves lack a tail, distinguishing them from natural wolves", "frequency": "occasional" },
+        { "feature": "Low-set ears (in human form)", "description": "Low-positioned ears described as an identifying trait in folk belief", "frequency": "occasional" }
+      ],
+      "morphology": "Depicted as alternating between fully human and fully lupine (or hybrid wolf-human) forms. The degree of transformation varies by tradition: some accounts describe a complete wolf, others a half-human hybrid of unusual size. Swedish accounts describe transformed werewolves running on three legs. In human form, suspected werewolves were identified by secondary physical markers (meeting eyebrows, curved nails, gait)."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shapeshifting", "description": "Transformation between human and wolf (or wolf-hybrid) form, triggered by various means depending on tradition: girdles of wolfskin, magical ointments, curses, Satanic pacts, sleeping under a full moon, or involuntary hereditary affliction", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Superhuman strength and speed", "description": "In transformed state, attributed with strength and speed beyond that of natural wolves or humans", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Resistance to conventional weapons", "description": "In later folklore and fiction, resistance to non-silver weapons; historically the silver-bullet trope is largely a modern addition", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Cannibalistic predation", "description": "Historical trial accounts consistently describe werewolves as attacking and consuming human victims, particularly children", "frequency": "common", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["forests", "rural farmland", "mountain regions", "borderlands between settlements and wilderness"],
+      "diet": "Historically described as predating on livestock (goats, lambs) and humans; trial confessions emphasize attacks on children and pregnant women",
+      "patterns": [
+        "Attacks typically attributed to night-time, with victims found at forest edges or rural roads",
+        "In many traditions, transformation triggered by seasonal events (winter solstice, Easter, full moon)",
+        "Historical accused werewolves were often social outsiders — shepherds, rural laborers, the poor",
+        "Serbian vukodlaks allegedly gathered annually to burn each other's wolfskins"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Werewolf traditions are documented across Europe (with especially dense legal and trial records in France, Germany, Switzerland, and the Low Countries), Slavic Europe, the Caucasus, and, through colonial transmission, the Americas (particularly French Canada, Louisiana, and Haiti).",
+      "continents": ["Europe", "North America", "South America", "Asia"],
+      "countries": ["France", "Germany", "Switzerland", "Netherlands", "Serbia", "Czech Republic", "Hungary", "Armenia", "Haiti", "United States", "Canada"],
+      "regions": [
+        "Holy Roman Empire",
+        "Electorate of Cologne",
+        "France (Burgundy, Auvergne)",
+        "Balkans",
+        "Transdanubia",
+        "Styria and Carinthia",
+        "Louisiana",
+        "French Canada"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Bedburg, Electorate of Cologne",
+        "location": {
+          "description": "Town of Bedburg, near Cologne, Holy Roman Empire (modern Germany)",
+          "country": "Germany",
+          "region": "North Rhine-Westphalia"
+        },
+        "peak_period": "1589",
+        "notes": "Site of the Peter Stumpp trial and execution, the most notorious werewolf case in European history"
+      },
+      {
+        "name": "Auvergne and Burgundy, France",
+        "location": {
+          "description": "South-central France",
+          "country": "France",
+          "region": "Auvergne / Burgundy"
+        },
+        "peak_period": "1521–1603",
+        "notes": "Region with concentrated werewolf trial records in the 16th–17th centuries"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-contact",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Herodotus (5th century BCE) records the Neuri's annual wolf-transformation; Pausanias records the Lycaon myth"
+      },
+      "peak_activity_periods": [
+        { "period": "1521–1650", "description": "Peak era of European werewolf trials, running parallel to the witch-trial era; concentrated in France, the Holy Roman Empire, and Switzerland" },
+        { "period": "1941–present", "description": "Modern cinematic era: Universal Pictures established the dominant popular-culture archetype with The Wolf Man (1941)" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Indo-European warrior-cult traditions (berserkers, ulfheðnar) and shamanistic animal-transformation beliefs are hypothesized as deep roots. The classical Greek Lycaon myth (transformation as divine punishment) and the Neuri tradition (Herodotus) are the earliest textual anchors. Medieval European Christianity reframed the tradition as Satanic pact or divine curse.",
+      "earliest_accounts": "Herodotus (Histories, c. 430 BCE) describes the Neuri. Pausanias documents the Lycaon myth. Petronius's Satyricon (c. AD 60) contains an explicit werewolf transformation narrative.",
+      "folklore_connections": "Connected to the broader human-to-animal shapeshifter complex found globally: the Japanese kitsune, the Navajo skinwalker, the African werehyena, and the South American lobisomem (werewolf)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "430-01-01", "event": "Herodotus describes the Neuri people of Scythia as transforming annually into wolves, one of the earliest textual werewolf references", "significance": "Classical anchor for the European werewolf tradition", "source": "Herodotus, Histories" },
+      { "date": "0060-01-01", "event": "Petronius's Satyricon includes an explicit werewolf transformation narrative", "significance": "One of the most detailed Classical-era literary werewolf accounts", "source": "Petronius, Satyricon, c. AD 60" },
+      { "date": "1200-01-01", "event": "Marie de France composes the Breton lai Bisclavret, depicting a nobleman who transforms into a wolf weekly", "significance": "Most sophisticated medieval literary treatment of werewolf transformation, emphasizing sympathy for the afflicted human", "source": "Marie de France, Bisclavret, c. 1200" },
+      { "date": "1521-01-01", "event": "Trial of Michel Verdun and Pierre Burgot in Poligny, France; both executed after confessing to transforming into wolves and killing children", "significance": "One of the earliest major French werewolf trials", "source": "Historical court records; documented in Sabine Baring-Gould, The Book of Werewolves (1865)" },
+      { "date": "1589-10-31", "event": "Execution of Peter Stumpp ('Werewolf of Bedburg') in Cologne; convicted of serial murder, cannibalism, and werewolfery after confessing under torture to 25 years of killings", "significance": "Most notorious European werewolf trial; generated a widely-circulated 1590 London pamphlet", "source": "1590 London pamphlet (two copies extant: British Museum and Lambeth Library); rediscovered by Montague Summers, 1920" },
+      { "date": "1603-01-01", "event": "Trial of Jean Grenier in Bordeaux, France; a teenager claiming to be a werewolf; court ruled him mentally ill rather than executing him", "significance": "Transitional case: French legal system beginning to treat lycanthropy as delusion rather than genuine transformation", "source": "Documented in historical records; referenced in Baring-Gould (1865)" },
+      { "date": "1941-01-01", "event": "Universal Pictures releases The Wolf Man, starring Lon Chaney Jr.; introduces full-moon transformation as a cinematic convention", "significance": "Foundational text of modern pop-cultural werewolf archetype; most cinematic conventions trace to this film and its 1943 sequel", "source": "The Wolf Man (1941), Universal Pictures" }
+    ],
+    "modern_era": "The modern werewolf is largely a fiction-and-cinema construct shaped by Universal Pictures' horror cycle (1941–1948) and subsequent literary tradition (Stephen King, Clive Barker) and film (An American Werewolf in London, 1981; The Howling, 1981; Underworld series, 2003–2016). Academically, the historical werewolf trial records have been studied by folklorists and historians as windows into early modern social anxieties, scapegoating, and the intersection of elite demonology with popular belief."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +180,150 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "werewolves-evidence-stumpp-pamphlet",
+        "type": "historical document",
+        "name": "1590 London Pamphlet on Peter Stumpp",
+        "date": "1590",
+        "description": "A 16-page English pamphlet, described as a translation of a German original, recounting the trial, confession, and execution of Peter Stumpp. Two copies survive: one in the British Museum, one in Lambeth Library.",
+        "status": "verified",
+        "analysis": "The pamphlet is a primary source for the Stumpp case. Scholars note the confession was obtained under torture and likely reflects interrogators' expectations as much as actual events.",
+        "source": "British Museum; Lambeth Library; rediscovered by Montague Summers, 1920"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Congenital porphyria",
+        "description": "Proposed by Dr. Lee Illis: porphyria causes photosensitivity, reddish teeth, and psychosis, which could explain some werewolf features. Rejected by many scholars (including Woodward) on grounds that disease victims would not resemble wolves.",
+        "proponents": ["Lee Illis"],
+        "evidence_cited": ["Photosensitivity matching avoidance of daylight", "Reddish teeth and gums in porphyria patients", "Psychiatric symptoms"]
+      },
+      {
+        "name": "Rabies transmission",
+        "description": "Proposed by scholar Woodward: rabies parallels the bite-transmission model, causes aggression and nocturnal behavior, and was endemic in medieval Europe, offering a naturalistic explanation for clusters of 'werewolf' attacks.",
+        "proponents": ["Woodward (scholar cited in Wikipedia on werewolves)"],
+        "evidence_cited": ["Behavioral parallels (aggression, nocturnality)", "Bite-transmission model", "Geographic clustering of reports in rabies-endemic regions"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Social scapegoating and torture-induced confession",
+        "description": "Historical werewolf trials were driven by the same social mechanisms as witch trials: community fear, desire for scapegoats, judicial torture producing false confessions, and elite demonological theory shaping peasant testimony.",
+        "proponents": ["Emma Wilby", "Stuart Clark", "historical scholars of the witch-trial era"],
+        "evidence_cited": ["Peter Stumpp confessed only after torture on the rack", "Trial outcomes correlated with social marginalization of the accused", "Accusation patterns mirror witch-trial dynamics"]
+      },
+      {
+        "name": "Modern archetype as cinematic invention",
+        "description": "The dominant popular-culture werewolf traits (full moon, silver bullets, infectious bite) are largely inventions of 20th-century cinema, absent from the historical folklore record.",
+        "proponents": ["Folklorists of contemporary popular culture"],
+        "evidence_cited": ["Full-moon transformation introduced cinematically in Frankenstein Meets the Wolf Man (1943)", "Silver-bullet trope largely absent from historical trial records", "Bite-transmission model derived from cinema, not medieval sources"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Germanic and Old English werwulf tradition",
+        "French loup-garou tradition (Bisclavret; Burgundy/Auvergne trials)",
+        "South Slavic vukodlak / vurdalak tradition",
+        "Hungarian Transdanubian werewolf beliefs (winter solstice, Easter triggers)",
+        "Armenian wolf-curse for sinful women",
+        "Caribbean lougawou (Haiti) and rougarou (Louisiana)"
+      ],
+      "stories": [
+        "Marie de France, Bisclavret (c. 1200): nobleman transformed by wife's treachery, redeemed by king's mercy",
+        "Pausanias's account of King Lycaon transformed by Zeus as punishment for cannibalism",
+        "Petronius, Satyricon (c. AD 60): soldier who transforms on a moonlit night at the roadside",
+        "Trial of Peter Stumpp (1589): farmer claiming Satanic girdle enabling wolf transformation; executed Cologne 31 October 1589",
+        "Trial of Jean Grenier (1603): French teenager claiming to be a werewolf; ruled mentally ill"
+      ],
+      "beliefs": "In medieval European belief, lycanthropy could result from Satanic pact, divine punishment, witchcraft, hereditary curse, or involuntary affliction. Cures ranged from wolfsbane and surgical interventions to Christian exorcism and addressing the werewolf by its Christian name. After 1650, educated European opinion increasingly pathologized lycanthropy as delusion rather than genuine supernatural transformation."
+    },
+    "indigenous": {
+      "cultures": ["Navajo (skinwalker tradition — distinct but conceptually parallel)", "Haitian Vodou (lougawou)", "Ojibwe / Algonquian (wendigo — distinct but sometimes conflated)"],
+      "significance": "Non-European traditions with human-to-animal transformation are distinct cultural phenomena; the convergence with the European werewolf is conceptual, not historical.",
+      "sensitivity_note": "The Navajo skinwalker tradition is a distinct sacred/dangerous concept that should not be conflated with the European werewolf. Discussing it with Navajo community members is considered inappropriate by many in those communities."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Sabine Baring-Gould, The Book of Werewolves (1865)",
+        "Marie de France, Bisclavret (c. 1200)",
+        "Guy Endore, The Werewolf of Paris (1933)",
+        "Stephen King, Cycle of the Werewolf (1983)"
+      ],
+      "film_tv": [
+        "Werewolf of London (1935, Universal Pictures)",
+        "The Wolf Man (1941, Universal Pictures, dir. George Waggner)",
+        "An American Werewolf in London (1981, dir. John Landis)",
+        "The Howling (1981, dir. Joe Dante)",
+        "Underworld (2003)",
+        "Ginger Snaps (2000)"
+      ],
+      "games": [
+        "Werewolf: The Apocalypse (White Wolf tabletop RPG, 1992)",
+        "The Elder Scrolls V: Skyrim — werewolf mechanic",
+        "Bloodborne (FromSoftware, 2015) — lycanthropy themes"
+      ],
+      "other": [
+        "Annual Werewolf festivals in various European cities",
+        "Mafia/social deduction game variants themed on werewolves"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Sabine Baring-Gould", "affiliation": "Independent scholar", "contribution": "The Book of Werewolves (1865), the first systematic English-language survey of werewolf trial records and mythology", "period": "1860s" },
+      { "name": "Montague Summers", "affiliation": "Independent scholar", "contribution": "Rediscovered the 1590 Peter Stumpp pamphlet in 1920; wrote The Werewolf (1933)", "period": "1920s–1930s" },
+      { "name": "Lee Illis", "affiliation": "Medical researcher", "contribution": "Proposed congenital porphyria as a naturalistic explanation for werewolf symptoms", "period": "1960s" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Ongoing academic work situates werewolf trials within the broader history of early modern witch persecution and demonology. Medical humanities scholars continue examining clinical lycanthropy as a psychiatric phenomenon."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-werewolf",
+      "type": "website",
+      "title": "Werewolf",
+      "url": "https://en.wikipedia.org/wiki/Werewolf",
+      "accessed": "2026-05-08"
+    },
+    {
+      "id": "wikipedia-peter-stumpp",
+      "type": "website",
+      "title": "Peter Stumpp",
+      "url": "https://en.wikipedia.org/wiki/Peter_Stumpp",
+      "accessed": "2026-05-08"
+    },
+    {
+      "id": "baring-gould-1865",
+      "type": "book",
+      "title": "The Book of Werewolves",
+      "authors": ["Sabine Baring-Gould"],
+      "publication": "Smith, Elder & Co.",
+      "date": "1865"
+    },
+    {
+      "id": "stumpp-pamphlet-1590",
+      "type": "archive",
+      "title": "A True Discourse. Declaring the Damnable Life and Death of One Stubbe Peeter (London pamphlet)",
+      "date": "1590",
+      "url": "https://en.wikipedia.org/wiki/Peter_Stumpp",
+      "accessed": "2026-05-08"
+    }
+  ]
 }

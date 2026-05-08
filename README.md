@@ -1,556 +1,190 @@
-# Werewolves (Lycanthropy)
+# Werewolf
 
-> *"Even a man who is pure in heart, and says his prayers by night, may become a wolf when the wolfsbane blooms and the autumn moon is bright."*
+> A human capable of transforming into a wolf or wolf-human hybrid, featuring in the folklore and mythology of many cultures, with the most developed European tradition producing historical trials and executions between the 1500s and 1700s.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-folklore-inactive)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-08-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-historical-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `werewolves` |
 | **Category** | SHAPESHIFTER |
-| **Classification** | Lycanthrope / Therianthrope |
-| **First Recorded** | Ancient (~2100 BCE, Epic of Gilgamesh) |
-| **Primary Region** | Europe (particularly France, Germany) |
-| **Status** | Folklore (no verified modern cases) |
+| **Subcategory** | Lycanthrope |
+| **First recorded** | 430-01-01 |
+| **Primary range** | Werewolf traditions are documented across Europe (with especially dense legal and trial records in France, Germany, Switzerland, and the Low Countries), Slavic Europe, the Caucasus, and, through colonial transmission, the Americas (particularly French Canada, Louisiana, and Haiti) |
+| **Status** | historical |
 
 ---
-
 ## Overview
 
-Werewolves, also known as lycanthropes, are legendary humans capable of transforming into wolves or wolf-human hybrids. The phenomenon has ancient roots in mythology and folklore across cultures, with the most developed traditions emerging from Europe.
-
-Historical werewolf trials during the 1500s-1600s paralleled witch hunts, resulting in numerous executions throughout France and Germany. The modern werewolf mythology—including full moon transformation, silver vulnerability, and infectious bite—developed primarily through 19th-20th century literature and film, particularly Universal Pictures' *The Wolf Man* (1941).
-
-While no verified werewolf cases exist, the legend connects to deeper themes of human duality, wildness, and the boundary between civilization and nature. The medical term "clinical lycanthropy" describes a rare psychiatric condition where patients believe they transform into animals.
+The werewolf — from Old English wer(e)wulf, 'man-wolf' — is one of the most widely attested shapeshifter figures in world folklore, appearing across European, Slavic, Caucasian, and New World traditions. In medieval and early modern Europe, lycanthropy was treated as a genuine supernatural phenomenon subject to ecclesiastical and civil law. Trials for werewolfery peaked in late 16th- and early 17th-century France and the Holy Roman Empire, running parallel to the broader witch-trial era and resulting in numerous executions, the most notorious being that of Peter Stumpp in Cologne in 1589. Classical antiquity provides early documentary evidence: Herodotus recorded that the Neuri tribe allegedly transformed annually into wolves; Pausanias described King Lycaon's punishment by Zeus; Ovid's Metamorphoses and Petronius's Satyricon (c. AD 60) include transformation narratives. Medieval traditions elaborated the theme: Marie de France's lai Bisclavret (c. 1200) depicts a nobleman forced to transform weekly. Regional variations proliferated across Europe and beyond — Hungarian, Slavic, Armenian, Caribbean, and Amerindian traditions all feature human-to-animal transformation with distinct triggering mechanisms and moral frameworks. The modern cinematic stereotype — full-moon transformation, silver vulnerability, infectious bite — is largely a 20th-century invention, introduced through Universal Pictures' horror cycle (The Wolf Man, 1941; Frankenstein Meets the Wolf Man, 1943). Clinical lycanthropy, a rare psychiatric condition in which patients believe they have transformed into an animal, provides a medical parallel studied by modern psychiatry.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| Lycanthrope | Greek (via Latin) | From lukánthrōpos: lukos (wolf) + anthropos (man) |
+| Loup-garou | French / France, French Canada, Louisiana | Wolf-werewolf; redundant compound from Old French |
+| Werwolf | German | Man-wolf; from Old High German |
+| Vukodlak | Serbian / Balkans | Wolf-haired |
+| Vlkodlak | Czech / Central Europe | Wolf-haired |
+| Rougarou | French Creole / Louisiana, Cajun | Variant of loup-garou |
+| Lougawou | Haitian Creole / Haiti, Caribbean | Shapeshifting blood-drinker; derived from loup-garou |
 
-### Primary Name
-- **Werewolf** — Old English "wer" (man) + "wulf" (wolf), meaning "man-wolf"
-- **Lycanthrope** — Greek "lykánthrōpos" from "lykos" (wolf) + "anthrōpos" (human)
+## Etymology
 
-### Alternative Names
-
-| Name | Language/Region | Meaning |
-|------|-----------------|---------|
-| Loup-garou | French, Louisiana Cajun | "wolf-werewolf" |
-| Werwolf | German | "man-wolf" |
-| Lobisomem | Portuguese, Brazil | "wolf-man" |
-| Hombre lobo | Spanish | "wolf-man" |
-| Varulf | Old Norse | "were-wolf" |
-| Volkodlak | Slavic | "wolf-hair" |
-| Lycaon | Greek mythology | Named for King Lycaon |
-
-> ⚠️ **Cultural Note**: Indigenous shapeshifter traditions (skinwalkers, nagual, etc.) are culturally distinct from European werewolves and should not be conflated or appropriated.
+- **Origin**: Old English wer(e)wulf, attested in glossaries and law codes; cognates in Middle Dutch weerwolf, Middle High German werwolf, West Frisian waer-ûl(e). The Greek form lycanthrope (lukánthrōpos) originally described a delusional psychiatric condition, not a supernatural being.
+- **Meaning**: Man-wolf: wer (Old English/Germanic for 'man') + wulf (wolf). The Slavic branch developed independently from vьlko-dlakь, meaning 'wolf-haired'.
+- **First use**: Old English (pre-Norman Conquest); found in Cnut the Great's law codes and ecclesiastical glossaries
 
 ---
+## Related Phenomena
 
-## Classification
-
-### Taxonomy
-```
-Category: SHAPESHIFTER
-├── Type: Therianthrope (human-animal hybrid)
-├── Subtype: Lycanthrope (specifically wolf)
-└── Variant: Multiple regional traditions
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| [Vampires](/vampires) | Related | Often linked in folklore; can become vampire after death |
-| Skinwalkers | Similar | Navajo shapeshifters; distinct Indigenous tradition |
-| Berserkers | Related | Norse warriors with wolf/bear fury |
-| Wendigo | Similar | Algonquian cannibalistic transformation |
+- [Skinwalker](../skin-walker/) — _similar_: Navajo witch figure capable of taking animal form, including wolf; conceptually parallel but culturally distinct
+- [Rougarou](../rougarou/) — _regional_variant_: Cajun/Louisiana Creole variant of loup-garou, blending French and indigenous traditions
+- [Vukodlak](../vukodlak/) — _regional_variant_: South Slavic wolf-demon tradition; sometimes overlaps with vampire lore
+- [Clinical Lycanthropy](../clinical-lycanthropy/) — _related_: Rare psychiatric syndrome in which patients believe they are transforming into an animal
 
 ---
+## Physical Description
 
-## Regional Werewolf Types
+- **Morphology**: Depicted as alternating between fully human and fully lupine (or hybrid wolf-human) forms. The degree of transformation varies by tradition: some accounts describe a complete wolf, others a half-human hybrid of unusual size. Swedish accounts describe transformed werewolves running on three legs. In human form, suspected werewolves were identified by secondary physical markers (meeting eyebrows, curved nails, gait).
 
-### European Werewolf (Western/Central Europe)
-Classical werewolf tradition with voluntary or cursed transformation.
-- Full moon transformation (modern addition)
-- Vulnerable to silver weapons
-- May retain intelligence or become bestial
-- Killed by silver bullet or decapitation
+### Features
 
-### Loup-garou (France, Louisiana)
-French werewolf with unique characteristics.
-- Curse lasts 101 days
-- Drawing blood breaks curse
-- Strong Cajun/Creole tradition
-- Punishment for breaking Lent
+| Feature | Description | Frequency |
+|---|---|---|
+| Full-body hair in wolf form | Complete transformation into a wolf or wolf-hybrid, covered in fur; in some traditions the size is larger than a natural wolf | always |
+| Meeting eyebrows (in human form) | Eyebrows that meet in the middle; cited in medieval European accounts as an identifying mark of a werewolf in human form | common |
+| Curved fingernails (in human form) | Long, claw-like curved nails; another folk identifier | common |
+| Human eyes retained in wolf form | Many traditions hold that the werewolf retains human-looking eyes while transformed, distinguishing it from natural wolves | common |
+| Tailless wolf form | In many European traditions, transformed werewolves lack a tail, distinguishing them from natural wolves | occasional |
+| Low-set ears (in human form) | Low-positioned ears described as an identifying trait in folk belief | occasional |
 
-### Volkodlak (Slavic Regions)
-Eastern European variant with vampire connections.
-- Can be born as werewolf
-- Becomes vampire after death (some traditions)
-- May transform into multiple animals
-- Associated with drinking from wolf tracks
+## Reported Abilities
 
-### Berserker (Scandinavia)
-Norse warrior tradition of channeling animal spirits.
-- Trance-like battle fury
-- Wore wolf/bear skins
-- Historical warrior tradition
-- Possible ritualistic transformation
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Shapeshifting | Transformation between human and wolf (or wolf-hybrid) form, triggered by various means depending on tradition: girdles of wolfskin, magical ointments, curses, Satanic pacts, sleeping under a full moon, or involuntary hereditary affliction | always | folklore |
+| Superhuman strength and speed | In transformed state, attributed with strength and speed beyond that of natural wolves or humans | common | folklore |
+| Resistance to conventional weapons | In later folklore and fiction, resistance to non-silver weapons; historically the silver-bullet trope is largely a modern addition | occasional | folklore |
+| Cannibalistic predation | Historical trial accounts consistently describe werewolves as attacking and consuming human victims, particularly children | common | reported |
 
-### Nagual (Mesoamerica)
-Aztec/Mayan spiritual shapeshifters.
-- Born with animal spirit companion
-- Shamanic transformation ability
-- Spiritual guardians, not monsters
-- Various animal forms possible
+## Behavior
+
+- **Activity**: nocturnal
+- **Disposition**: aggressive
+- **Social structure**: solitary
+- **Habitat**: forests, rural farmland, mountain regions, borderlands between settlements and wilderness
+- **Diet**: Historically described as predating on livestock (goats, lambs) and humans; trial confessions emphasize attacks on children and pregnant women
 
 ---
+## Distribution
 
-## Characteristics
+Werewolf traditions are documented across Europe (with especially dense legal and trial records in France, Germany, Switzerland, and the Low Countries), Slavic Europe, the Caucasus, and, through colonial transmission, the Americas (particularly French Canada, Louisiana, and Haiti).
 
-### Human Form Indicators (Folklore)
+### Hotspots
 
-| Feature | Description | Tradition |
-|---------|-------------|-----------|
-| Unibrow | Eyebrows meet in middle | European folklore |
-| Hair in palms | Palm hair present | European folklore |
-| Finger length | Index/ring finger same length | Various |
-| Pentagram mark | Cursed individuals marked | Modern fiction |
-
-### Wolf Form Appearance
-
-**Full Wolf Transformation** (Traditional):
-- Complete transformation into wolf
-- Larger than normal wolves
-- Often retains human intelligence in eyes
-
-**Bipedal Hybrid** (Modern Popular Culture):
-- Humanoid body with wolf head
-- Covered in fur with claws
-- Enhanced strength and senses
-- 6-8 feet tall
-
-**Physical Features**:
-- Coloration: Gray, black, brown, or matching human hair color
-- Glowing yellow or red eyes
-- Enhanced fangs and claws
-- Heightened smell, hearing, night vision
-- Muscular build
-
-### Transformation Process
-
-| Trigger | Description | Voluntary? |
-|---------|-------------|-----------|
-| Full moon | Involuntary during full moon | No (modern) |
-| Curse/magic | Triggered by curse or spell | No |
-| Wolfsbane/wolf-skin | Wearing wolf-skin or potion | Yes (medieval) |
-| Will | Trained lycanthrope control | Yes |
-| Emotional state | Extreme anger or fear | No (modern) |
-
-**Process Description**: Typically depicted as painful and violent. Bones reshape, fur grows, features transform. Duration varies from instant to several minutes depending on tradition.
-
-**Reversibility**: Most traditions allow return to human form at dawn, through willpower, or at end of full moon cycle.
+| Location | Region | Sightings | Peak |
+|---|---|---|---|
+| Bedburg, Electorate of Cologne | North Rhine-Westphalia, Germany |  | 1589 |
+| Auvergne and Burgundy, France | Auvergne / Burgundy, France |  | 1521–1603 |
 
 ---
-
-## Abilities & Weaknesses
-
-### Abilities
-
-| Ability | Description | Frequency |
-|---------|-------------|-----------|
-| Transformation | Shift between human and wolf forms | Always |
-| Enhanced strength | Superhuman physical power | Always |
-| Enhanced speed/agility | Far exceeds human capabilities | Always |
-| Enhanced senses | Wolf-like smell, hearing, night vision | Always |
-| Regeneration | Rapid healing (except silver wounds) | Common |
-| Infection | Bite/scratch transmits lycanthropy | Common |
-| Telepathy | Pack mind connection | Occasional (modern) |
-
-### Weaknesses
-
-| Weakness | Description | Tradition |
-|----------|-------------|-----------|
-| Silver | Silver bullets/weapons cause permanent damage | European (modern) |
-| Wolfsbane (Aconite) | Poisonous plant repels or weakens | European folklore |
-| Decapitation | Removing head kills werewolf | Various |
-| Fire | Burning destroys werewolf | Various |
-| Religious symbols | Crosses, holy water (less common) | Christian Europe |
-| Full moon compulsion | Loss of control during transformation | Modern |
-
----
-
-## Behavioral Patterns
-
-- **Activity Period**: Nocturnal (especially during full moon in modern tradition)
-- **Disposition**: Varies from bestial to retaining humanity
-- **Social Structure**: Solitary or pack
-- **Intelligence**: Ranges from bestial to fully human consciousness
-- **Diet**: Carnivorous; human flesh in darker traditions
-- **Habitat**: Forests and wilderness, but live among humans in human form
-
-**Common Behaviors**:
-- Hunt at night, especially during full moon
-- May or may not remember actions while transformed
-- Often struggle with dual nature (modern portrayal)
-- Pack hierarchy and territorial behavior
-- Heightened aggression and predatory instincts
-
----
-
-## Geographic Distribution
-
-### Primary Range
-
-Werewolf legends exist in virtually every culture with wolf populations. Therianthrope (human-animal transformation) legends exist worldwide. European werewolf tradition is the most developed.
-
-### Historical Hotspots
-
-| Location | Region | Period | Significance |
-|----------|--------|--------|--------------|
-| French-German Border | Alsace-Lorraine, Black Forest | 1500s-1600s | Major werewolf trial epicenter |
-| Gévaudan, France | Margeride Mountains | 1764-1767 | Beast of Gévaudan attacks (100+ deaths) |
-| Bedburg, Germany | North Rhine-Westphalia | 1589 | Peter Stumpp trial |
-| Auvergne, France | Central France | 1500s | Multiple trials |
-
-### Cultural Distribution
-
-- **Europe**: Most developed tradition (France, Germany, Eastern Europe, Scandinavia)
-- **Americas**: Louisiana Cajun loup-garou, Mesoamerican nagual
-- **Asia**: Various shapeshifter traditions (distinct from European werewolf)
-- **Africa**: Hyena-men and other shapeshifter traditions
-
----
-
 ## Historical Timeline
 
-### Ancient Origins
-
-Blood-drinking spirits and shapeshifter myths appear in nearly all ancient cultures. The werewolf specifically emerges from cultures where wolves were both feared predators and symbols of wildness.
-
-### Key Events
-
 | Date | Event | Significance |
-|------|-------|--------------|
-| ~2100 BCE | Epic of Gilgamesh | Early transformation themes in Mesopotamian literature |
-| ~400 BCE | Herodotus describes Neuri | Greek historian writes of annual wolf transformation |
-| ~8 CE | Ovid's Metamorphoses | Story of Lycaon transformed by Zeus |
-| 1589 | Peter Stumpp trial | Most famous werewolf trial; German farmer executed |
-| 1598 | Werewolf of Châlons | French tailor executed; records destroyed |
-| 1603 | Jean Grenier case | French teen spared execution, sent to monastery |
-| 1764-1767 | Beast of Gévaudan | 100+ killed by wolf-like creature in France |
-| 1824 | Antoine Leger case | French killer claimed lycanthropy; asylum |
-| 1935 | *The Werewolf of Paris* | Novel influences modern werewolf fiction |
-| 1941 | *The Wolf Man* film | Universal establishes modern mythology |
-| 1981 | *An American Werewolf in London* | Revolutionary transformation effects |
+|---|---|---|
+| 430-01-01 | Herodotus describes the Neuri people of Scythia as transforming annually into wolves, one of the earliest textual werewolf references | Classical anchor for the European werewolf tradition |
+| 0060-01-01 | Petronius's Satyricon includes an explicit werewolf transformation narrative | One of the most detailed Classical-era literary werewolf accounts |
+| 1200-01-01 | Marie de France composes the Breton lai Bisclavret, depicting a nobleman who transforms into a wolf weekly | Most sophisticated medieval literary treatment of werewolf transformation, emphasizing sympathy for the afflicted human |
+| 1521-01-01 | Trial of Michel Verdun and Pierre Burgot in Poligny, France; both executed after confessing to transforming into wolves and killing children | One of the earliest major French werewolf trials |
+| 1589-10-31 | Execution of Peter Stumpp ('Werewolf of Bedburg') in Cologne; convicted of serial murder, cannibalism, and werewolfery after confessing under torture to 25 years of killings | Most notorious European werewolf trial; generated a widely-circulated 1590 London pamphlet |
+| 1603-01-01 | Trial of Jean Grenier in Bordeaux, France; a teenager claiming to be a werewolf; court ruled him mentally ill rather than executing him | Transitional case: French legal system beginning to treat lycanthropy as delusion rather than genuine transformation |
+| 1941-01-01 | Universal Pictures releases The Wolf Man, starring Lon Chaney Jr.; introduces full-moon transformation as a cinematic convention | Foundational text of modern pop-cultural werewolf archetype; most cinematic conventions trace to this film and its 1943 sequel |
 
-### The Werewolf Trial Era (1500s-1600s)
+## Evidence
 
-During the height of European witch hunts, werewolf trials paralleled witch trials. Hundreds (possibly thousands) were accused, tortured, and executed. France and Germany were epicenters. Confessions were typically obtained through torture. These trials reflected:
-- Fear of wilderness and wolves
-- Witch-hunt mentality and mass hysteria
-- Explanation for serial murders and violence
-- Religious and social persecution
+### Documentary
+
+| Name | Date | Description | Status |
+|---|---|---|---|
+| 1590 London Pamphlet on Peter Stumpp | 1590 | A 16-page English pamphlet, described as a translation of a German original, recounting the trial, confession, and execution of Peter Stumpp. Two copies survive: one in the British Museum, one in Lambeth Library. | verified |
 
 ---
-
-## Notable Historical Cases
-
-### Peter Stumpp (Werewolf of Bedburg, 1589) ⭐
-
-> **Date**: 1589
-> **Location**: Bedburg, Germany
-> **Accused**: Peter Stumpp (wealthy farmer)
-> **Charges**: 25 years of murders, cannibalism, lycanthropy
-
-Peter Stumpp was accused of transforming into a wolf using a magic belt given by the Devil. He confessed under torture to murdering and cannibalizing over a dozen people, including his own son, over 25 years. He was executed by breaking wheel in one of history's most gruesome executions.
-
-**Historical Context**: Likely a serial killer whose crimes were interpreted through the werewolf lens, or a victim of false accusations during the witch-hunt era. Pamphlets about his case spread throughout Europe, making him the most famous "werewolf."
-
-**Credibility**: Real person, real trial, torture-induced confession. No evidence of actual transformation. Reflects cultural interpretation of violence and witch-hunt mentality.
-
----
-
-### Beast of Gévaudan (1764-1767) ⭐
-
-> **Date**: 1764-1767
-> **Location**: Gévaudan (now Lozère), France
-> **Deaths**: 100-130 people
-> **Description**: Wolf-like creature, larger than normal, reddish fur
-
-Between 1764-1767, a wolf-like creature killed approximately 100-130 people in rural France, mostly women and children. Victims were often decapitated or had throats torn out. The creature showed unusual behavior: attacking humans preferentially, hunting in daylight, and displaying extraordinary cunning.
-
-King Louis XV sent professional hunters. Several wolves were killed, ending the attacks. Some attributed it to a werewolf, others to a trained wolf, wolf-dog hybrid, or even an exotic animal like a lion or hyena. Modern theories also include a serial killer using trained animals.
-
-**Historical Context**: Extensively documented with royal investigation, witness accounts, and contemporary records. Real attacks occurred; the creature's true nature remains one of history's enduring mysteries.
-
-**Credibility**: Attacks definitely occurred. "Werewolf" is one interpretation among many. Most likely unusual wolf behavior, hybrid animal, or serial killer with trained animal.
-
----
-
-### Jean Grenier Case (1603)
-
-> **Date**: 1603
-> **Location**: Saint-Sever region, France
-> **Accused**: Jean Grenier (13-14 years old)
-> **Outcome**: Sent to monastery, not executed
-
-Jean Grenier, a teenage boy, voluntarily confessed to transforming into a wolf using an ointment and wolf-skin, claiming to have killed children. Unlike most werewolf trials, he was not tortured. Medical examination found him mentally deficient.
-
-Remarkably, the court showed mercy, recognizing mental illness. Jean was sent to a monastery rather than executed. He died there seven years later.
-
-**Historical Context**: Notable for merciful treatment and recognition of mental illness or delusion. Grenier likely suffered from clinical lycanthropy, intellectual disability, or psychosis.
-
-**Credibility**: Real trial with extensive records. Represents early recognition that "werewolf" behavior might be mental illness rather than supernatural evil.
-
----
-
-*See [/sightings](/sightings) for complete historical case database.*
-
----
-
 ## Theories & Explanations
 
-### Scientific Explanations
+### Scientific
 
-#### Clinical Lycanthropy (Psychiatric Condition)
-Rare psychiatric condition where patients genuinely believe they transform into animals. Documented in medical literature, associated with schizophrenia, bipolar disorder, and psychosis. **No actual physical transformation occurs.**
+**Congenital porphyria** _(Lee Illis)_
 
-**Evidence**: Multiple case studies in psychiatric journals; patients report vivid transformation experiences.
+Proposed by Dr. Lee Illis: porphyria causes photosensitivity, reddish teeth, and psychosis, which could explain some werewolf features. Rejected by many scholars (including Woodward) on grounds that disease victims would not resemble wolves.
 
-#### Hypertrichosis ("Werewolf Syndrome")
-Rare genetic condition causing excessive hair growth over entire body. Could inspire werewolf legends based on appearance alone.
+**Rabies transmission** _(Woodward (scholar cited in Wikipedia on werewolves))_
 
-**Evidence**: Real medical condition; historical "wolf-man" circus performers; no transformation, just appearance.
+Proposed by scholar Woodward: rabies parallels the bite-transmission model, causes aggression and nocturnal behavior, and was endemic in medieval Europe, offering a naturalistic explanation for clusters of 'werewolf' attacks.
 
-#### Rabies
-Rabies causes aggression, biting behavior, fear of water, hypersensitivity, and was endemic in wolf-populated areas of medieval Europe.
+### Skeptical
 
-**Evidence**: Symptom correlation; historical epidemics; wolves as primary disease vectors; behavioral changes in victims.
+**Social scapegoating and torture-induced confession** _(Emma Wilby, Stuart Clark, historical scholars of the witch-trial era)_
 
-#### Serial Killers & Psychopaths
-Many historical "werewolf" cases were likely serial killers whose crimes were interpreted through a supernatural lens.
+Historical werewolf trials were driven by the same social mechanisms as witch trials: community fear, desire for scapegoats, judicial torture producing false confessions, and elite demonological theory shaping peasant testimony.
 
-**Evidence**: Peter Stumpp likely a serial killer; real murders with supernatural explanation; torture-induced confessions unreliable.
+**Modern archetype as cinematic invention** _(Folklorists of contemporary popular culture)_
 
-#### Ergot Poisoning
-Fungal contamination of grain causes hallucinations, convulsions, and psychosis. Common in medieval Europe.
+The dominant popular-culture werewolf traits (full moon, silver bullets, infectious bite) are largely inventions of 20th-century cinema, absent from the historical folklore record.
 
-**Evidence**: Known cause of mass hysteria; symptoms include violent behavior and delusions; could affect both accusers and accused.
 
-#### Porphyria (Disputed)
-Blood disorder causing photosensitivity, receding gums, and reddish urine. Theory now largely rejected as insufficient explanation.
+## Indigenous Perspectives
 
-### Skeptical Explanations
+> ⚠️ **The Navajo skinwalker tradition is a distinct sacred/dangerous concept that should not be conflated with the European werewolf. Discussing it with Navajo community members is considered inappropriate by many in those communities.**
 
-#### Mass Hysteria & Witch-Hunt Mentality
-Werewolf trials were products of witch-hunt era: false accusations, torture, scapegoating, and social persecution.
+**Cultures**: Navajo (skinwalker tradition — distinct but conceptually parallel), Haitian Vodou (lougawou), Ojibwe / Algonquian (wendigo — distinct but sometimes conflated)
 
-**Evidence**: Parallels witch trials exactly; confessions under torture; no physical evidence; many likely innocent.
-
-#### Folklore & Cultural Construct
-Werewolves are entirely folklore created to explain violence, otherness, and human duality.
-
-**Evidence**: Universal shapeshifter myths; symbolic representation; no verified cases; cultural fear of wolves and wilderness.
-
----
-
-## Cultural Significance
-
-### Folklore Traditions
-
-- **Greek/Roman Mythology**: Lycaon transformed to wolf by Zeus
-- **Germanic Traditions**: Wolf-warriors and wild hunt
-- **Slavic Folklore**: Volkodlak traditions
-- **French Folklore**: Loup-garou curses and protections
-- **Norse Sagas**: Berserkers wearing wolf-skins
-- **Mesoamerican**: Nagual spiritual shapeshifters
-
-### Symbolic Meanings
-
-Werewolf legends symbolize:
-- **Duality of human nature** (civilized vs. savage)
-- **Loss of control** (transformation against will)
-- **Fear of wilderness** and predation
-- **Otherness** and social outsiders
-- **Repressed violent/sexual urges** (psychological interpretation)
-- **Boundary between human and animal**
-
-### Indigenous Perspectives
-
-> ⚠️ **Critical Cultural Sensitivity Note**
-
-Indigenous shapeshifter traditions are **NOT** werewolves and should never be conflated with European folklore:
-
-- **Navajo Skinwalkers**: Feared witches; discussing them can be culturally offensive
-- **Nagual (Mesoamerican)**: Spiritual guardians with animal companions
-- **Various Native American traditions**: Distinct cultural and spiritual contexts
-
-**Guidelines**:
-- Do not appropriate or misrepresent Indigenous beliefs
-- Do not conflate with European werewolves
-- Do not sensationalize sacred traditions
-- Consult Indigenous authorities before researching
-
----
+Non-European traditions with human-to-animal transformation are distinct cultural phenomena; the convergence with the European werewolf is conceptual, not historical.
 
 ## Popular Culture
 
-### Literature
+**Literature**: Sabine Baring-Gould, The Book of Werewolves (1865); Marie de France, Bisclavret (c. 1200); Guy Endore, The Werewolf of Paris (1933); Stephen King, Cycle of the Werewolf (1983)
 
-- *The Werewolf of Paris* by Guy Endore (1935) — Influences modern fiction
-- *Cycle of the Werewolf* by Stephen King (1983)
-- *Blood and Chocolate* by Annette Curtis Klause (1997)
-- *Twilight* series by Stephenie Meyer (2005-2008) — Romantic werewolves
-- *Women of the Otherworld* series by Kelley Armstrong
-- *Shiver* trilogy by Maggie Stiefvater (2009-2011)
+**Film / TV**: Werewolf of London (1935, Universal Pictures); The Wolf Man (1941, Universal Pictures, dir. George Waggner); An American Werewolf in London (1981, dir. John Landis); The Howling (1981, dir. Joe Dante); Underworld (2003); Ginger Snaps (2000)
 
-### Film & Television
+**Games**: Werewolf: The Apocalypse (White Wolf tabletop RPG, 1992); The Elder Scrolls V: Skyrim — werewolf mechanic; Bloodborne (FromSoftware, 2015) — lycanthropy themes
 
-**Classic**:
-- *The Wolf Man* (1941) — Defines modern werewolf mythology
-- *An American Werewolf in London* (1981) — Revolutionary effects
-- *The Howling* (1981)
-
-**Modern**:
-- *Teen Wolf* (1985 film, 2011 TV series)
-- *Ginger Snaps* (2000) — Female werewolf coming-of-age
-- *Underworld* series (2003-) — Werewolf vs. vampire war
-- *Twilight* films (2008-2012)
-- *The Wolfman* (2010 remake)
-- *Hemlock Grove* (2013-2015)
-- *What We Do in the Shadows* (TV series werewolf episodes)
-
-### Games
-
-- *Werewolf: The Apocalypse* — Tabletop RPG
-- *The Elder Scrolls* series — Werewolves in Skyrim
-- *The Witcher* series
-- *Dungeons & Dragons* — Lycanthropes
-- *World of Warcraft* — Worgen race
-- *Mafia/Werewolf* — Party game
-
-### Other Media
-
-- Halloween costumes and seasonal culture
-- Werewolf tourism (Gévaudan, Germany)
-- Therian/otherkin communities (people who identify as animals)
-- Modern werewolf subcultures
+**Other**: Annual Werewolf festivals in various European cities; Mafia/social deduction game variants themed on werewolves
 
 ---
+## Research
 
-## Modern Perspectives
+### Researchers
 
-### Clinical Lycanthropy (Medical)
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Sabine Baring-Gould | Independent scholar | The Book of Werewolves (1865), the first systematic English-language survey of werewolf trial records and mythology | 1860s |
+| Montague Summers | Independent scholar | Rediscovered the 1590 Peter Stumpp pamphlet in 1920; wrote The Werewolf (1933) | 1920s–1930s |
+| Lee Illis | Medical researcher | Proposed congenital porphyria as a naturalistic explanation for werewolf symptoms | 1960s |
 
-Clinical lycanthropy is a recognized psychiatric condition where patients believe they are transforming or have transformed into an animal (usually a wolf). It is:
-- Rare but documented in medical literature
-- Associated with schizophrenia, bipolar disorder, severe depression
-- Treated with antipsychotic medication and therapy
-- **Not** actual physical transformation
-
-### Therian & Otherkin Communities
-
-Modern subcultures of people who identify as non-human:
-- **Therians**: Identify spiritually/psychologically as animals
-- **Otherkin**: Identify as mythological beings
-- Not claiming physical transformation
-- Psychological/spiritual identity, not delusion
+Ongoing academic work situates werewolf trials within the broader history of early modern witch persecution and demonology. Medical humanities scholars continue examining clinical lycanthropy as a psychiatric phenomenon.
 
 ---
+## Sources
 
-## Research & Investigation
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-### Notable Researchers
 
-| Name | Contribution | Period |
-|------|--------------|--------|
-| Sabine Baring-Gould | *The Book of Were-Wolves* (1865) | 1800s |
-| Montague Summers | *The Werewolf* (1933) compilation | Early 1900s |
-| Ian Woodward | *The Werewolf Delusion* (1979) analysis | 1970s |
-| Dr. Jan Bondeson | Medical historian, hypertrichosis studies | Modern |
-| Jay M. Smith | *Monsters of the Gévaudan* (2011) | Modern |
+## How to Report a Sighting
 
-### Modern Research Focus
-
-- **Folklore Studies**: Cultural analysis of werewolf legends
-- **Historical Research**: Documenting and analyzing trial records
-- **Psychiatric Research**: Clinical lycanthropy case studies
-- **Medical History**: Investigating diseases that inspired legends (rabies, porphyria, etc.)
-- **Criminology**: Serial killers misidentified as werewolves
-
-**No scientific investigation of "real werewolves" is conducted** as no physical evidence exists.
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
-## API Reference
-
-Machine-readable data is available in [`api.json`](api.json).
-
-### Data Access
-
-```javascript
-// Using WyrdnessAPI
-const wyrd = new WyrdnessAPI();
-const werewolves = await wyrd.getPhenomenon('werewolves');
-const cases = await wyrd.getSightings('werewolves');
-```
-
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/werewolves/main/api.json
-```
-
----
-
-## Sources & References
-
-See [SOURCES.md](SOURCES.md) for complete bibliography.
-
-### Primary Sources
-
-- Baring-Gould, S. (1865). *The Book of Were-Wolves*
-- Summers, M. (1933). *The Werewolf*
-- Woodward, I. (1979). *The Werewolf Delusion*
-- Smith, J.M. (2011). *Monsters of the Gévaudan*
-
-### Historical Documents
-
-- European werewolf trial records (1500s-1600s)
-- Beast of Gévaudan investigation reports
-- Medieval and classical texts
-
----
-
-## Changelog
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-01-14 | Initial release |
-
-See [CHANGELOG.md](CHANGELOG.md) for full history.
-
----
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[View Historical Cases](./sightings) • [Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._
